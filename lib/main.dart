@@ -42,63 +42,81 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        color: Colors.white,
-        child: Center(
-          child: Column(
-            children: [
-              if (_nearestStationsByLine != null)
-                Expanded(
-                  child: ListView.builder(
-                    itemCount: _nearestStationsByLine!.length,
-                    itemBuilder: (context, index) {
-                      final entry = _nearestStationsByLine!.entries.elementAt(index);
-                      final line = entry.key;
-                      final station = entry.value.station;
-                      final dist = entry.value.distance;
-
-                      return ListTile(
-                        title: Text('${station.name}'),
-                        subtitle: Text('$line • ${_formatDistance(dist)}'),
-                        leading: const Icon(Icons.train),
-                      );
-                    },
+      body: Stack(
+        children: [
+          Container(color: Colors.white),
+          Positioned.fill(
+            child: Padding(
+              padding: const EdgeInsets.only(bottom: 100), // 버튼 영역 확보
+              child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 500),
+                transitionBuilder: (child, anim) => FadeTransition(
+                  opacity: anim,
+                  child: SlideTransition(
+                    position:
+                    Tween(begin: const Offset(0, -.05), end: Offset.zero)
+                        .animate(anim),
+                    child: child,
                   ),
                 ),
-              const SizedBox(height: 20), // 버튼 위 마진
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 20),
-                child: SizedBox(
-                  width: double.infinity,
-                  height: 60,
-                  child: ElevatedButton(
-                    onPressed: () async {
-                      _loading ? null : _initiateNearestStationsByLine();
-                    },
-                    style: ElevatedButton.styleFrom(
+                child: _nearestStationsByLine == null
+                  ? const SizedBox(key: ValueKey('empty'))
+                  : ListView.builder(
+                      key: const ValueKey('listView'),
+                      itemCount: _nearestStationsByLine!.length,
+                      itemBuilder: (context, index) {
+                        final entry = _nearestStationsByLine!.entries.elementAt(index);
+                        final line = entry.key;
+                        final station = entry.value.station;
+                        final dist = entry.value.distance;
+
+                        return ListTile(
+                          title: Text('${station.name}'),
+                          subtitle: Text('$line • ${_formatDistance(dist)}'),
+                          leading: const Icon(Icons.train),
+                        );
+                      },
+                    ),
+              ),
+            ),
+          ),
+          AnimatedAlign(
+            duration: const Duration(milliseconds: 500),
+            curve: Curves.easeInOut,
+            alignment: _nearestStationsByLine == null
+              ? Alignment.center
+              : Alignment.bottomCenter,
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
+              child: SizedBox(
+                width: double.infinity,
+                height: 60,
+                child: ElevatedButton(
+                  onPressed: () async {
+                    _loading ? null : _initiateNearestStationsByLine();
+                  },
+                  style: ElevatedButton.styleFrom(
                       backgroundColor: AppColors.lightGreen,
                       foregroundColor: AppColors.green,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(10),
                       )
+                  ),
+                  child: _loading
+                      ? const SizedBox(
+                    width: 20,
+                    height: 20,
+                    child: CircularProgressIndicator(
+                      strokeWidth: 2,
+                      color: AppColors.green,
                     ),
-                    child: _loading
-                        ? const SizedBox(
-                            width: 20,
-                            height: 20,
-                            child: CircularProgressIndicator(
-                              strokeWidth: 2,
-                              color: AppColors.green,
-                            ),
-                          )
-                        : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
                   )
+                      : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
                 )
-              ),
-              const SizedBox(height: 20), // 버튼 아래 마진
-            ]
-          )
-        ),
+              )
+            ),
+         ),
+        ]
       )
     );
   }
