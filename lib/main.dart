@@ -6,6 +6,7 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'dart:convert';
 import 'dart:async';
 import 'StationDistance.dart';
+import 'SubwayLine.dart';
 import 'SubwayStation.dart';
 import 'colors.dart';
 
@@ -94,12 +95,28 @@ class _MyHomePageState extends State<MyHomePage> {
                         final id = station.frCode;
                         final bool isEnabledNotification = _enabledNotificationStations.contains(id);
 
+                        final lineEnum = SubwayLine.values.firstWhere(
+                          (e) => e.lineNumber == station.lineNumber,
+                          orElse: () => SubwayLine.line1,
+                        );
+
                         return ListTile(
-                          contentPadding: const EdgeInsets.symmetric(
-                              horizontal: 16),
+                          contentPadding: const EdgeInsets.symmetric(horizontal: 16),
                           title: Text('${station.name}'),
                           subtitle: Text('$line • ${_formatDistance(dist)}'),
-                          leading: const Icon(Icons.train),
+                          leading: Container(
+                            width: 30,
+                            height: 30,
+                            decoration: BoxDecoration(
+                              color: lineEnum.color,
+                              shape: BoxShape.circle,
+                            ),
+                            child: const Icon(
+                              Icons.train,
+                              color: Colors.white,
+                              size: 20,
+                            )
+                          ),
                           trailing: IconButton(
                             icon: Icon(
                               isEnabledNotification
@@ -150,7 +167,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     : Alignment.bottomCenter,
                 child: Padding(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 20, vertical: 30),
+                        horizontal: 20, vertical: 20),
                     child: SizedBox(
                         width: double.infinity,
                         height: 60,
