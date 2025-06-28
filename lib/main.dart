@@ -5,6 +5,7 @@ import 'package:flutter/services.dart' show rootBundle;
 
 import 'StationDistance.dart';
 import 'SubwayStation.dart';
+import 'colors.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,13 +36,8 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-    });
-  }
+  bool _loading = false;
+  Map<String, StationDistance>? _nearestStationsByLine;
 
   @override
   Widget build(BuildContext context) {
@@ -53,15 +49,25 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 60,
               child: ElevatedButton(
                 onPressed: () async {
-                  final map = await getNearestStationsByLine();
-                  print(map);
+                  _loading ? null : _initiateNearestStationsByLine();
                 },
                 style: ElevatedButton.styleFrom(
+                  backgroundColor: AppColors.lightGreen,
+                  foregroundColor: AppColors.green,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10),
                   )
                 ),
-                child: const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
+                child: _loading
+                    ? const SizedBox(
+                  width: 20,
+                  height: 20,
+                  child: CircularProgressIndicator(
+                    strokeWidth: 2,
+                    color: AppColors.green,
+                  ),
+                )
+                    : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
               )
             )
         ),
@@ -69,7 +75,21 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Future<Map<String, StationDistance>> getNearestStationsByLine() async {
+  Future<void> _initiateNearestStationsByLine() async {
+    setState(() => _loading = true);
+    try {
+      final nearestStationsByLine = await _getNearestStationsByLine();
+      setState(() => _nearestStationsByLine = nearestStationsByLine);
+    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('오류: $e')),
+      );
+    } finally {
+      setState(() => _loading = false);
+    }
+  }
+
+  Future<Map<String, StationDistance>> _getNearestStationsByLine() async {
     final Position current = await _getPosition();
     final List<SubwayStation> stations = await _loadStations();
 
