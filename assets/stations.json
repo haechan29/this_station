@@ -3,3045 +3,3045 @@
     "name": "동묘앞역",
     "latitude": 37.573213058557904,
     "longitude": 127.016346114277,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "127"
   },
   {
     "name": "의정부역",
     "latitude": 37.738355288143204,
     "longitude": 127.04594774621499,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "110"
   },
   {
     "name": "녹양역",
     "latitude": 37.7593852598143,
     "longitude": 127.042261194277,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "108"
   },
   {
     "name": "양주역",
     "latitude": 37.7741241429389,
     "longitude": 127.044721308837,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "107"
   },
   {
     "name": "지행역",
     "latitude": 37.891874305025404,
     "longitude": 127.055660861893,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "104"
   },
   {
     "name": "진위역",
     "latitude": 37.110068218169104,
     "longitude": 127.06235148447,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P161"
   },
   {
     "name": "아산역",
     "latitude": 36.7946033931316,
     "longitude": 127.104357916141,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P172"
   },
   {
     "name": "봉명역",
     "latitude": 36.8014198381628,
     "longitude": 127.136033629949,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P170"
   },
   {
     "name": "송내역",
     "latitude": 37.4876132028813,
     "longitude": 126.753030639866,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "150"
   },
   {
     "name": "구일역",
     "latitude": 37.4962509036903,
     "longitude": 126.869682064958,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "142"
   },
   {
     "name": "대방역",
     "latitude": 37.513346921872404,
     "longitude": 126.926478663143,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "137"
   },
   {
     "name": "인천역",
     "latitude": 37.4761495749499,
     "longitude": 126.616816630533,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "161"
   },
   {
     "name": "소사역",
     "latitude": 37.482793087788004,
     "longitude": 126.79562620200299,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "147"
   },
   {
     "name": "간석역",
     "latitude": 37.464696355987,
     "longitude": 126.693513421034,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "155"
   },
   {
     "name": "동두천중앙역",
     "latitude": 37.9017663228673,
     "longitude": 127.056418741871,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "103"
   },
   {
     "name": "소요산역",
     "latitude": 37.9488831816783,
     "longitude": 127.06111949476299,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "100"
   },
   {
     "name": "개봉역",
     "latitude": 37.4946344799821,
     "longitude": 126.858693356963,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "143"
   },
   {
     "name": "세류역",
     "latitude": 37.2438725206491,
     "longitude": 127.013795188267,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P156"
   },
   {
     "name": "병점역",
     "latitude": 37.2067454948774,
     "longitude": 127.033186851871,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P157"
   },
   {
     "name": "오산대역",
     "latitude": 37.1693396260189,
     "longitude": 127.063075717411,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P159"
   },
   {
     "name": "광명역",
     "latitude": 37.4164369211351,
     "longitude": 126.884799479023,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P144-1"
   },
   {
     "name": "도봉역",
     "latitude": 37.6791974925121,
     "longitude": 127.045525808977,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "114"
   },
   {
     "name": "가능역",
     "latitude": 37.7483927208896,
     "longitude": 127.044274646711,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "109"
   },
   {
     "name": "금정역",
     "latitude": 37.3724555868554,
     "longitude": 126.943460747528,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P149"
   },
   {
     "name": "동암역",
     "latitude": 37.4706849292696,
     "longitude": 126.702871709229,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "154"
   },
   {
     "name": "온양온천역",
     "latitude": 36.7805376748432,
     "longitude": 127.00318147264299,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P176"
   },
   {
     "name": "신도림역",
     "latitude": 37.5089048744726,
     "longitude": 126.891307981962,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "140"
   },
   {
     "name": "수원역",
     "latitude": 37.2657867038031,
     "longitude": 127.00009019074899,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P155"
   },
   {
     "name": "성균관대역",
     "latitude": 37.300328999493104,
     "longitude": 126.971012976824,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P153"
   },
   {
     "name": "석수역",
     "latitude": 37.4350857189035,
     "longitude": 126.90230723405,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P145"
   },
   {
     "name": "금천구청역",
     "latitude": 37.4561799500543,
     "longitude": 126.893599593129,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P144"
   },
   {
     "name": "가산디지털단지역",
     "latitude": 37.480388740074304,
     "longitude": 126.882643680055,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P142"
   },
   {
     "name": "신창역",
     "latitude": 36.769624275712005,
     "longitude": 126.95138861374,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P177"
   },
   {
     "name": "창동역",
     "latitude": 37.653320494324,
     "longitude": 127.047640454654,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "116"
   },
   {
     "name": "안양역",
     "latitude": 37.401853193434,
     "longitude": 126.92263476250099,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P147"
   },
   {
     "name": "오산역",
     "latitude": 37.1447027564949,
     "longitude": 127.066612100655,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P160"
   },
   {
     "name": "서동탄역",
     "latitude": 37.1957279421118,
     "longitude": 127.051856774263,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P157-1"
   },
   {
     "name": "주안역",
     "latitude": 37.4650388163816,
     "longitude": 126.679947643466,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "156"
   },
   {
     "name": "덕계역",
     "latitude": 37.8187525902328,
     "longitude": 127.056673506557,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "106"
   },
   {
     "name": "동두천역",
     "latitude": 37.927606065077605,
     "longitude": 127.054914346206,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "101"
   },
   {
     "name": "방학역",
     "latitude": 37.6674311601371,
     "longitude": 127.044317183294,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "115"
   },
   {
     "name": "덕정역",
     "latitude": 37.8431840486326,
     "longitude": 127.061554773951,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "105"
   },
   {
     "name": "보산역",
     "latitude": 37.9141449311302,
     "longitude": 127.057156006911,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "102"
   },
   {
     "name": "성환역",
     "latitude": 36.916122379095,
     "longitude": 127.126877790465,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P166"
   },
   {
     "name": "평택역",
     "latitude": 36.9909679456145,
     "longitude": 127.085282090336,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P165"
   },
   {
     "name": "구로역",
     "latitude": 37.5033280243545,
     "longitude": 126.882291119347,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "141"
   },
   {
     "name": "남영역",
     "latitude": 37.5405585626607,
     "longitude": 126.971327574661,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "134"
   },
   {
     "name": "명학역",
     "latitude": 37.3844532109689,
     "longitude": 126.935592797832,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P148"
   },
   {
     "name": "회기역",
     "latitude": 37.5897782042758,
     "longitude": 127.058039297256,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "123"
   },
   {
     "name": "세마역",
     "latitude": 37.187117263775,
     "longitude": 127.043426806993,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P158"
   },
   {
     "name": "영등포역",
     "latitude": 37.5156764732488,
     "longitude": 126.90785793823,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "139"
   },
   {
     "name": "쌍용역",
     "latitude": 36.793722187347804,
     "longitude": 127.12136482043,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P171"
   },
   {
     "name": "청량리역",
     "latitude": 37.5807185198462,
     "longitude": 127.048499848096,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "124"
   },
   {
     "name": "역곡역",
     "latitude": 37.4853071505875,
     "longitude": 126.81205933872799,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "146"
   },
   {
     "name": "부천역",
     "latitude": 37.4839780556595,
     "longitude": 126.783072729615,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "148"
   },
   {
     "name": "부평역",
     "latitude": 37.4894418243737,
     "longitude": 126.724326592211,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "152"
   },
   {
     "name": "백운역",
     "latitude": 37.4833280348289,
     "longitude": 126.707276374028,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "153"
   },
   {
     "name": "제물포역",
     "latitude": 37.466722240417305,
     "longitude": 126.656948338954,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "158"
   },
   {
     "name": "동인천역",
     "latitude": 37.475406829524104,
     "longitude": 126.632602470436,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "160"
   },
   {
     "name": "도원역",
     "latitude": 37.468769792108304,
     "longitude": 126.642514822715,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "159"
   },
   {
     "name": "중동역",
     "latitude": 37.4866635779738,
     "longitude": 126.764521602065,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "149"
   },
   {
     "name": "의왕역",
     "latitude": 37.3203421093152,
     "longitude": 126.947967475613,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P152"
   },
   {
     "name": "제기동역",
     "latitude": 37.5781644906615,
     "longitude": 127.034935905941,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "125"
   },
   {
     "name": "신설동역",
     "latitude": 37.5760227613002,
     "longitude": 127.02445216984499,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "126"
   },
   {
     "name": "동대문역",
     "latitude": 37.5716640012581,
     "longitude": 127.010617962363,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "128"
   },
   {
     "name": "독산역",
     "latitude": 37.4659611473931,
     "longitude": 126.889471139645,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P143"
   },
   {
     "name": "도화역",
     "latitude": 37.4661066864842,
     "longitude": 126.668571461535,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "157"
   },
   {
     "name": "종로5가역",
     "latitude": 37.5709616924446,
     "longitude": 127.001539476891,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "129"
   },
   {
     "name": "종로3가역",
     "latitude": 37.5704208439207,
     "longitude": 126.992144196794,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "130"
   },
   {
     "name": "종각역",
     "latitude": 37.5702216815202,
     "longitude": 126.983133839231,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "131"
   },
   {
     "name": "시청역",
     "latitude": 37.5653372841193,
     "longitude": 126.977181235023,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "132"
   },
   {
     "name": "서울역",
     "latitude": 37.5533163107152,
     "longitude": 126.969738305903,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "133"
   },
   {
     "name": "녹천역",
     "latitude": 37.6446334490218,
     "longitude": 127.051374087263,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "117"
   },
   {
     "name": "서정리역",
     "latitude": 37.0565492930081,
     "longitude": 127.052863705224,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P163"
   },
   {
     "name": "신이문역",
     "latitude": 37.6017744461345,
     "longitude": 127.067379878325,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "121"
   },
   {
     "name": "천안역",
     "latitude": 36.8089943586122,
     "longitude": 127.146827684755,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P169"
   },
   {
     "name": "관악역",
     "latitude": 37.4195571394685,
     "longitude": 126.908495489831,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P146"
   },
   {
     "name": "직산역",
     "latitude": 36.8709220503975,
     "longitude": 127.14380576372,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P167"
   },
   {
     "name": "오류동역",
     "latitude": 37.4943827932767,
     "longitude": 126.844807477983,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "144"
   },
   {
     "name": "부개역",
     "latitude": 37.4884698252674,
     "longitude": 126.74072559177199,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "151"
   },
   {
     "name": "신길역",
     "latitude": 37.5167834187845,
     "longitude": 126.91835364083799,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "138"
   },
   {
     "name": "월계역",
     "latitude": 37.633259532473105,
     "longitude": 127.058843478444,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "118"
   },
   {
     "name": "온수역",
     "latitude": 37.4919566907461,
     "longitude": 126.823825338009,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "145"
   },
   {
     "name": "광운대역",
     "latitude": 37.6238337612372,
     "longitude": 127.061690626596,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "119"
   },
   {
     "name": "도봉산역",
     "latitude": 37.6895585326698,
     "longitude": 127.046053675471,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "113"
   },
   {
     "name": "망월사역",
     "latitude": 37.7102083547787,
     "longitude": 127.047404669624,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "112"
   },
   {
     "name": "회룡역",
     "latitude": 37.7237950762834,
     "longitude": 127.047277212627,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "111"
   },
   {
     "name": "당정역",
     "latitude": 37.3436790011333,
     "longitude": 126.948357655292,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P151"
   },
   {
     "name": "외대앞역",
     "latitude": 37.5962624346633,
     "longitude": 127.063683442668,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "122"
   },
   {
     "name": "석계역",
     "latitude": 37.6150019340823,
     "longitude": 127.065670206166,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "120"
   },
   {
     "name": "군포역",
     "latitude": 37.354185066319104,
     "longitude": 126.94850847757199,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P150"
   },
   {
     "name": "노량진역",
     "latitude": 37.5135712531779,
     "longitude": 126.940888666744,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "136"
   },
   {
     "name": "용산역",
     "latitude": 37.530069153872404,
     "longitude": 126.964815014401,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "135"
   },
   {
     "name": "배방역",
     "latitude": 36.7776965034054,
     "longitude": 127.05278360986699,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P174"
   },
   {
     "name": "송탄역",
     "latitude": 37.0757054527557,
     "longitude": 127.054271459719,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P162"
   },
   {
     "name": "두정역",
     "latitude": 36.8335918342985,
     "longitude": 127.149071859029,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P168"
   },
   {
     "name": "화서역",
     "latitude": 37.2839872655598,
     "longitude": 126.989603013382,
-    "lineNumber": "01호선",
+    "lineNumber": "1호선",
     "frCode": "P154"
   },
   {
     "name": "을지로입구역",
     "latitude": 37.566022902061604,
     "longitude": 126.98218399536199,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "202"
   },
   {
     "name": "신도림역",
     "latitude": 37.5089048744726,
     "longitude": 126.891307981962,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "234"
   },
   {
     "name": "신답역",
     "latitude": 37.5698350860798,
     "longitude": 127.04706653168999,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "211-2"
   },
   {
     "name": "뚝섬역",
     "latitude": 37.5472379579492,
     "longitude": 127.047369170783,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "210"
   },
   {
     "name": "을지로4가역",
     "latitude": 37.5666368996611,
     "longitude": 126.997623004003,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "204"
   },
   {
     "name": "양천구청역",
     "latitude": 37.5123744505094,
     "longitude": 126.86571787073599,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "234-2"
   },
   {
     "name": "영등포구청역",
     "latitude": 37.525830523222204,
     "longitude": 126.896668349116,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "236"
   },
   {
     "name": "신대방역",
     "latitude": 37.487641446009,
     "longitude": 126.913500702287,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "231"
   },
   {
     "name": "삼성역",
     "latitude": 37.5088119293814,
     "longitude": 127.063020940329,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "219"
   },
   {
     "name": "아현역",
     "latitude": 37.5574025689432,
     "longitude": 126.956132861047,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "242"
   },
   {
     "name": "종합운동장역",
     "latitude": 37.5111302556967,
     "longitude": 127.07383586044,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "218"
   },
   {
     "name": "신림역",
     "latitude": 37.4842644294274,
     "longitude": 126.929740854865,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "230"
   },
   {
     "name": "성수역",
     "latitude": 37.5445852156774,
     "longitude": 127.056057944077,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "211"
   },
   {
     "name": "봉천역",
     "latitude": 37.4824689098378,
     "longitude": 126.941682007426,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "229"
   },
   {
     "name": "왕십리역",
     "latitude": 37.5612611631671,
     "longitude": 127.037078472459,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "208"
   },
   {
     "name": "시청역",
     "latitude": 37.5653372841193,
     "longitude": 126.977181235023,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "201"
   },
   {
     "name": "까치산역",
     "latitude": 37.5322270449167,
     "longitude": 126.846426169396,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "234-4"
   },
   {
     "name": "충정로역",
     "latitude": 37.559747968898904,
     "longitude": 126.964484159441,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "243"
   },
   {
     "name": "도림천역",
     "latitude": 37.514500819973804,
     "longitude": 126.882635530518,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "234-1"
   },
   {
     "name": "신설동역",
     "latitude": 37.5760227613002,
     "longitude": 127.02445216984499,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "211-4"
   },
   {
     "name": "이대역",
     "latitude": 37.5568039038233,
     "longitude": 126.946422762684,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "241"
   },
   {
     "name": "신촌역",
     "latitude": 37.5551954567089,
     "longitude": 126.936962654548,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "240"
   },
   {
     "name": "홍대입구역",
     "latitude": 37.5568635281461,
     "longitude": 126.92376498856599,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "239"
   },
   {
     "name": "구로디지털단지역",
     "latitude": 37.485253367194105,
     "longitude": 126.901473089504,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "232"
   },
   {
     "name": "문래역",
     "latitude": 37.5179720940164,
     "longitude": 126.894756202452,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "235"
   },
   {
     "name": "한양대역",
     "latitude": 37.555708786425704,
     "longitude": 127.04361716382,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "209"
   },
   {
     "name": "용두역",
     "latitude": 37.5740549248114,
     "longitude": 127.038262110343,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "211-3"
   },
   {
     "name": "서울대입구역",
     "latitude": 37.481284500826504,
     "longitude": 126.95269510794199,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "228"
   },
   {
     "name": "낙성대역",
     "latitude": 37.477089631373204,
     "longitude": 126.96350581794199,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "227"
   },
   {
     "name": "방배역",
     "latitude": 37.4814561264392,
     "longitude": 126.997535255649,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "225"
   },
   {
     "name": "서초역",
     "latitude": 37.491835518946004,
     "longitude": 127.007644026196,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "224"
   },
   {
     "name": "을지로3가역",
     "latitude": 37.566276179676905,
     "longitude": 126.990967458779,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "203"
   },
   {
     "name": "구의역",
     "latitude": 37.537160863174,
     "longitude": 127.086171769557,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "213"
   },
   {
     "name": "잠실새내역",
     "latitude": 37.5116083485804,
     "longitude": 127.08630073431999,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "217"
   },
   {
     "name": "대림역",
     "latitude": 37.4933027323738,
     "longitude": 126.894926522974,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "233"
   },
   {
     "name": "건대입구역",
     "latitude": 37.5403976062717,
     "longitude": 127.069202907348,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "212"
   },
   {
     "name": "사당역",
     "latitude": 37.4765532208396,
     "longitude": 126.98154954144499,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "226"
   },
   {
     "name": "합정역",
     "latitude": 37.549901442065,
     "longitude": 126.914447288631,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "238"
   },
   {
     "name": "신정네거리역",
     "latitude": 37.5202158982635,
     "longitude": 126.85287600742299,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "234-3"
   },
   {
     "name": "당산역",
     "latitude": 37.5347735014069,
     "longitude": 126.902607283905,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "237"
   },
   {
     "name": "용답역",
     "latitude": 37.5621209757458,
     "longitude": 127.05088727878099,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "211-1"
   },
   {
     "name": "교대역",
     "latitude": 37.4927359601279,
     "longitude": 127.013863444681,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "223"
   },
   {
     "name": "강남역",
     "latitude": 37.4980854411503,
     "longitude": 127.02797765772699,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "222"
   },
   {
     "name": "역삼역",
     "latitude": 37.5006600052986,
     "longitude": 127.03646041421099,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "221"
   },
   {
     "name": "선릉역",
     "latitude": 37.5044937750958,
     "longitude": 127.048948120105,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "220"
   },
   {
     "name": "잠실역",
     "latitude": 37.5133092702048,
     "longitude": 127.100215181119,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "216"
   },
   {
     "name": "잠실나루역",
     "latitude": 37.5206944003696,
     "longitude": 127.103799674868,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "215"
   },
   {
     "name": "강변역",
     "latitude": 37.535118053119,
     "longitude": 127.094722999066,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "214"
   },
   {
     "name": "상왕십리역",
     "latitude": 37.5644348647729,
     "longitude": 127.029270145908,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "207"
   },
   {
     "name": "신당역",
     "latitude": 37.5656622427144,
     "longitude": 127.019468475358,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "206"
   },
   {
     "name": "동대문역사문화공원역",
     "latitude": 37.565645485914104,
     "longitude": 127.008987189553,
-    "lineNumber": "02호선",
+    "lineNumber": "2호선",
     "frCode": "205"
   },
   {
     "name": "도곡역",
     "latitude": 37.4909757841746,
     "longitude": 127.055497705714,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "344"
   },
   {
     "name": "안국역",
     "latitude": 37.5764929103816,
     "longitude": 126.985419169939,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "328"
   },
   {
     "name": "충무로역",
     "latitude": 37.5613929793562,
     "longitude": 126.99413715417799,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "331"
   },
   {
     "name": "을지로3가역",
     "latitude": 37.566276179676905,
     "longitude": 126.990967458779,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "330"
   },
   {
     "name": "매봉역",
     "latitude": 37.4869250553702,
     "longitude": 127.046697871026,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "343"
   },
   {
     "name": "동대입구역",
     "latitude": 37.5590504141329,
     "longitude": 127.005296768227,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "332"
   },
   {
     "name": "대치역",
     "latitude": 37.4944858480401,
     "longitude": 127.063189830669,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "345"
   },
   {
     "name": "학여울역",
     "latitude": 37.496877997891204,
     "longitude": 127.071153022687,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "346"
   },
   {
     "name": "삼송역",
     "latitude": 37.6530677292421,
     "longitude": 126.895653717805,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "318"
   },
   {
     "name": "화정역",
     "latitude": 37.634633161962,
     "longitude": 126.832665788035,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "315"
   },
   {
     "name": "대화역",
     "latitude": 37.6761429324264,
     "longitude": 126.747487417179,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "309"
   },
   {
     "name": "옥수역",
     "latitude": 37.5415518643708,
     "longitude": 127.01738020121499,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "335"
   },
   {
     "name": "압구정역",
     "latitude": 37.5264849726148,
     "longitude": 127.028486030642,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "336"
   },
   {
     "name": "종로3가역",
     "latitude": 37.5704208439207,
     "longitude": 126.992144196794,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "329"
   },
   {
     "name": "신사역",
     "latitude": 37.5164314730183,
     "longitude": 127.02029272549,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "337"
   },
   {
     "name": "경찰병원역",
     "latitude": 37.4959868949932,
     "longitude": 127.124482367866,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "351"
   },
   {
     "name": "잠원역",
     "latitude": 37.5128827106508,
     "longitude": 127.011401392881,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "338"
   },
   {
     "name": "대청역",
     "latitude": 37.4937011202813,
     "longitude": 127.079517936005,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "347"
   },
   {
     "name": "오금역",
     "latitude": 37.502128070001504,
     "longitude": 127.127930582636,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "352"
   },
   {
     "name": "백석역",
     "latitude": 37.6429587368303,
     "longitude": 126.788117923412,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "313"
   },
   {
     "name": "주엽역",
     "latitude": 37.6701350355631,
     "longitude": 126.76124543496499,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "310"
   },
   {
     "name": "원당역",
     "latitude": 37.653099388064,
     "longitude": 126.842913931542,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "316"
   },
   {
     "name": "정발산역",
     "latitude": 37.659473412185704,
     "longitude": 126.773405982778,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "311"
   },
   {
     "name": "대곡역",
     "latitude": 37.631681128995,
     "longitude": 126.810920972324,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "314"
   },
   {
     "name": "마두역",
     "latitude": 37.6522375070419,
     "longitude": 126.77759814216,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "312"
   },
   {
     "name": "원흥역",
     "latitude": 37.6506849598556,
     "longitude": 126.87301618178499,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "317"
   },
   {
     "name": "고속터미널역",
     "latitude": 37.5045398449292,
     "longitude": 127.005134579686,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "339"
   },
   {
     "name": "교대역",
     "latitude": 37.4927359601279,
     "longitude": 127.013863444681,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "340"
   },
   {
     "name": "남부터미널역",
     "latitude": 37.4851852186355,
     "longitude": 127.016191235414,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "341"
   },
   {
     "name": "일원역",
     "latitude": 37.4839850708765,
     "longitude": 127.08412070785799,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "348"
   },
   {
     "name": "수서역",
     "latitude": 37.4852843181606,
     "longitude": 127.10445168236,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "349"
   },
   {
     "name": "가락시장역",
     "latitude": 37.493092048704,
     "longitude": 127.118258210622,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "350"
   },
   {
     "name": "지축역",
     "latitude": 37.648145025133005,
     "longitude": 126.913836143165,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "319"
   },
   {
     "name": "구파발역",
     "latitude": 37.636417756758604,
     "longitude": 126.91883471225499,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "320"
   },
   {
     "name": "연신내역",
     "latitude": 37.6191924317614,
     "longitude": 126.921096185129,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "321"
   },
   {
     "name": "불광역",
     "latitude": 37.6100441859992,
     "longitude": 126.930302239049,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "322"
   },
   {
     "name": "녹번역",
     "latitude": 37.6008031568325,
     "longitude": 126.93581442227699,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "323"
   },
   {
     "name": "홍제역",
     "latitude": 37.5887881726718,
     "longitude": 126.94415801336899,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "324"
   },
   {
     "name": "무악재역",
     "latitude": 37.5825560184073,
     "longitude": 126.95023095893299,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "325"
   },
   {
     "name": "독립문역",
     "latitude": 37.5744680801684,
     "longitude": 126.957911446269,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "326"
   },
   {
     "name": "경복궁역",
     "latitude": 37.5757880985498,
     "longitude": 126.973668718282,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "327"
   },
   {
     "name": "금호역",
     "latitude": 37.548255518095004,
     "longitude": 127.015820115311,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "334"
   },
   {
     "name": "양재역",
     "latitude": 37.484568708111404,
     "longitude": 127.034146039501,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "342"
   },
   {
     "name": "약수역",
     "latitude": 37.5544909839515,
     "longitude": 127.010887137982,
-    "lineNumber": "03호선",
+    "lineNumber": "3호선",
     "frCode": "333"
   },
   {
     "name": "미아사거리역",
     "latitude": 37.6132684542852,
     "longitude": 127.030082101855,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "416"
   },
   {
     "name": "노원역",
     "latitude": 37.6563403562037,
     "longitude": 127.063440071354,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "411"
   },
   {
     "name": "동작역",
     "latitude": 37.5029705640491,
     "longitude": 126.980299007575,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "431"
   },
   {
     "name": "선바위역",
     "latitude": 37.4517407809454,
     "longitude": 127.002215131762,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "435"
   },
   {
     "name": "인덕원역",
     "latitude": 37.4014797519481,
     "longitude": 126.976666306687,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "440"
   },
   {
     "name": "대공원역",
     "latitude": 37.4360449337415,
     "longitude": 127.006734401918,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "437"
   },
   {
     "name": "경마공원역",
     "latitude": 37.4439557812032,
     "longitude": 127.007819960946,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "436"
   },
   {
     "name": "반월역",
     "latitude": 37.3123673429765,
     "longitude": 126.90381994812199,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "447"
   },
   {
     "name": "상록수역",
     "latitude": 37.302852338899804,
     "longitude": 126.86658759305699,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "448"
   },
   {
     "name": "총신대입구역",
     "latitude": 37.4867887823399,
     "longitude": 126.98220282873899,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "432"
   },
   {
     "name": "대야미역",
     "latitude": 37.3279651196109,
     "longitude": 126.916888493064,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "446"
   },
   {
     "name": "혜화역",
     "latitude": 37.582025898333804,
     "longitude": 127.00192463086,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "420"
   },
   {
     "name": "평촌역",
     "latitude": 37.3942322968183,
     "longitude": 126.963794473939,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "441"
   },
   {
     "name": "숙대입구역",
     "latitude": 37.544595230111504,
     "longitude": 126.972118127372,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "427"
   },
   {
     "name": "미아역",
     "latitude": 37.6266400754021,
     "longitude": 127.026032022663,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "415"
   },
   {
     "name": "과천역",
     "latitude": 37.4328735001529,
     "longitude": 126.996610343398,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "438"
   },
   {
     "name": "안산역",
     "latitude": 37.3270130414371,
     "longitude": 126.788872916065,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "453"
   },
   {
     "name": "중앙역",
     "latitude": 37.316008480902504,
     "longitude": 126.838496396948,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "450"
   },
   {
     "name": "신길온천역",
     "latitude": 37.337622244882304,
     "longitude": 126.767041475711,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "454"
   },
   {
     "name": "정왕역",
     "latitude": 37.3518085060046,
     "longitude": 126.742911898934,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "455"
   },
   {
     "name": "이촌역",
     "latitude": 37.522448905081404,
     "longitude": 126.973325479803,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "430"
   },
   {
     "name": "산본역",
     "latitude": 37.3580157018612,
     "longitude": 126.933041817991,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "444"
   },
   {
     "name": "성신여대입구역",
     "latitude": 37.592962724262804,
     "longitude": 127.017120398018,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "418"
   },
   {
     "name": "길음역",
     "latitude": 37.6033767646759,
     "longitude": 127.025049999193,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "417"
   },
   {
     "name": "쌍문역",
     "latitude": 37.6485317952362,
     "longitude": 127.034651559958,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "413"
   },
   {
     "name": "상계역",
     "latitude": 37.6607133396972,
     "longitude": 127.073417091825,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "410"
   },
   {
     "name": "회현역",
     "latitude": 37.5587602432284,
     "longitude": 126.97842820291899,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "425"
   },
   {
     "name": "당고개역",
     "latitude": 37.6702060357364,
     "longitude": 127.079048472278,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "409"
   },
   {
     "name": "서울역",
     "latitude": 37.5533163107152,
     "longitude": 126.969738305903,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "426"
   },
   {
     "name": "사당역",
     "latitude": 37.4765532208396,
     "longitude": 126.98154954144499,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "433"
   },
   {
     "name": "남태령역",
     "latitude": 37.4642463513885,
     "longitude": 126.9890807468,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "434"
   },
   {
     "name": "오이도역",
     "latitude": 37.3616918424846,
     "longitude": 126.738385506047,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "456"
   },
   {
     "name": "수리산역",
     "latitude": 37.3505507556783,
     "longitude": 126.925621928603,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "445"
   },
   {
     "name": "한성대입구역",
     "latitude": 37.5884047925683,
     "longitude": 127.006000831773,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "419"
   },
   {
     "name": "동대문역",
     "latitude": 37.5716640012581,
     "longitude": 127.010617962363,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "421"
   },
   {
     "name": "명동역",
     "latitude": 37.5609598626754,
     "longitude": 126.986395560098,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "424"
   },
   {
     "name": "금정역",
     "latitude": 37.3724555868554,
     "longitude": 126.943460747528,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "443"
   },
   {
     "name": "수유역",
     "latitude": 37.6378664771973,
     "longitude": 127.025492107399,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "414"
   },
   {
     "name": "범계역",
     "latitude": 37.3897765383406,
     "longitude": 126.95076520642199,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "442"
   },
   {
     "name": "신용산역",
     "latitude": 37.5292591477099,
     "longitude": 126.967960513832,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "429"
   },
   {
     "name": "삼각지역",
     "latitude": 37.534432134689,
     "longitude": 126.972913902586,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "428"
   },
   {
     "name": "충무로역",
     "latitude": 37.5613929793562,
     "longitude": 126.99413715417799,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "423"
   },
   {
     "name": "한대앞역",
     "latitude": 37.3097570214788,
     "longitude": 126.853670620172,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "449"
   },
   {
     "name": "정부과천청사역",
     "latitude": 37.4264939139217,
     "longitude": 126.989854488907,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "439"
   },
   {
     "name": "고잔역",
     "latitude": 37.3167972714743,
     "longitude": 126.823016567504,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "451"
   },
   {
     "name": "창동역",
     "latitude": 37.653320494324,
     "longitude": 127.047640454654,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "412"
   },
   {
     "name": "동대문역사문화공원역",
     "latitude": 37.565645485914104,
     "longitude": 127.008987189553,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "422"
   },
   {
     "name": "초지역",
     "latitude": 37.320662974468604,
     "longitude": 126.80594908949,
-    "lineNumber": "04호선",
+    "lineNumber": "4호선",
     "frCode": "452"
   },
   {
     "name": "방이역",
     "latitude": 37.5087434268367,
     "longitude": 127.126086986658,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "P551"
   },
   {
     "name": "올림픽공원역",
     "latitude": 37.5163245709914,
     "longitude": 127.130963650207,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "P550"
   },
   {
     "name": "둔촌동역",
     "latitude": 37.527653243694004,
     "longitude": 127.136210118019,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "P549"
   },
   {
     "name": "고덕역",
     "latitude": 37.5550395608369,
     "longitude": 127.154163861206,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "552"
   },
   {
     "name": "광화문역",
     "latitude": 37.5716441018605,
     "longitude": 126.976409565513,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "533"
   },
   {
     "name": "화곡역",
     "latitude": 37.5416435540232,
     "longitude": 126.840432411284,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "517"
   },
   {
     "name": "신정역",
     "latitude": 37.5250131753674,
     "longitude": 126.856079401594,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "519"
   },
   {
     "name": "상일동역",
     "latitude": 37.5566634789051,
     "longitude": 127.16589214528099,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "553"
   },
   {
     "name": "길동역",
     "latitude": 37.5378120875517,
     "longitude": 127.140007691428,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "549"
   },
   {
     "name": "천호역",
     "latitude": 37.5384968055586,
     "longitude": 127.123919374783,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "547"
   },
   {
     "name": "명일역",
     "latitude": 37.5513942973681,
     "longitude": 127.144039211129,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "551"
   },
   {
     "name": "굽은다리역",
     "latitude": 37.545503186603,
     "longitude": 127.14287366158,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "550"
   },
   {
     "name": "동대문역사문화공원역",
     "latitude": 37.565645485914104,
     "longitude": 127.008987189553,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "536"
   },
   {
     "name": "을지로4가역",
     "latitude": 37.5666368996611,
     "longitude": 126.997623004003,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "535"
   },
   {
     "name": "마곡역",
     "latitude": 37.5602178056843,
     "longitude": 126.824683361642,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "514"
   },
   {
     "name": "개화산역",
     "latitude": 37.5725335465697,
     "longitude": 126.806814324288,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "511"
   },
   {
     "name": "까치산역",
     "latitude": 37.5322270449167,
     "longitude": 126.846426169396,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "518"
   },
   {
     "name": "양평역",
     "latitude": 37.5255688309654,
     "longitude": 126.886419299276,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "522"
   },
   {
     "name": "영등포구청역",
     "latitude": 37.525830523222204,
     "longitude": 126.896668349116,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "523"
   },
   {
     "name": "애오개역",
     "latitude": 37.553402332792004,
     "longitude": 126.95665578902799,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "530"
   },
   {
     "name": "김포공항역",
     "latitude": 37.5619477391215,
     "longitude": 126.801906881417,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "512"
   },
   {
     "name": "마장역",
     "latitude": 37.5661245472562,
     "longitude": 127.042966737062,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "541"
   },
   {
     "name": "답십리역",
     "latitude": 37.5669676097486,
     "longitude": 127.05254316093,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "542"
   },
   {
     "name": "방화역",
     "latitude": 37.5775887548875,
     "longitude": 126.81280121976,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "510"
   },
   {
     "name": "서대문역",
     "latitude": 37.5657492320378,
     "longitude": 126.966631900266,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "532"
   },
   {
     "name": "아차산역",
     "latitude": 37.5522410643204,
     "longitude": 127.089561549724,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "545"
   },
   {
     "name": "영등포시장역",
     "latitude": 37.522702175873604,
     "longitude": 126.905179576089,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "524"
   },
   {
     "name": "충정로역",
     "latitude": 37.559747968898904,
     "longitude": 126.964484159441,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "531"
   },
   {
     "name": "신길역",
     "latitude": 37.5167834187845,
     "longitude": 126.91835364083799,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "525"
   },
   {
     "name": "여의도역",
     "latitude": 37.5211664706025,
     "longitude": 126.924638422261,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "526"
   },
   {
     "name": "오목교역",
     "latitude": 37.5245304608023,
     "longitude": 126.875289218474,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "521"
   },
   {
     "name": "목동역",
     "latitude": 37.52612248118,
     "longitude": 126.864607193772,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "520"
   },
   {
     "name": "송정역",
     "latitude": 37.5611540020654,
     "longitude": 126.812412256202,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "513"
   },
   {
     "name": "여의나루역",
     "latitude": 37.5271361343623,
     "longitude": 126.932981451891,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "527"
   },
   {
     "name": "마포역",
     "latitude": 37.539540506830704,
     "longitude": 126.945846741087,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "528"
   },
   {
     "name": "공덕역",
     "latitude": 37.5445344743163,
     "longitude": 126.95143307722999,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "529"
   },
   {
     "name": "발산역",
     "latitude": 37.5586687177515,
     "longitude": 126.8377251087,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "515"
   },
   {
     "name": "오금역",
     "latitude": 37.502128070001504,
     "longitude": 127.127930582636,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "P552"
   },
   {
     "name": "광나루역",
     "latitude": 37.545291967554,
     "longitude": 127.103516928227,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "546"
   },
   {
     "name": "군자역",
     "latitude": 37.5571496975138,
     "longitude": 127.079494769075,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "544"
   },
   {
     "name": "장한평역",
     "latitude": 37.5615921805583,
     "longitude": 127.063699193793,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "543"
   },
   {
     "name": "종로3가역",
     "latitude": 37.5704208439207,
     "longitude": 126.992144196794,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "534"
   },
   {
     "name": "우장산역",
     "latitude": 37.548809872408604,
     "longitude": 126.836320627782,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "516"
   },
   {
     "name": "강동역",
     "latitude": 37.5358747268317,
     "longitude": 127.13237818461499,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "548"
   },
   {
     "name": "마천역",
     "latitude": 37.495034582344005,
     "longitude": 127.152841764562,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "P555"
   },
   {
     "name": "왕십리역",
     "latitude": 37.5612611631671,
     "longitude": 127.037078472459,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "540"
   },
   {
     "name": "행당역",
     "latitude": 37.557352974431105,
     "longitude": 127.029493728053,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "539"
   },
   {
     "name": "신금호역",
     "latitude": 37.554471689074504,
     "longitude": 127.020484110799,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "538"
   },
   {
     "name": "거여역",
     "latitude": 37.4933160395092,
     "longitude": 127.143769291109,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "P554"
   },
   {
     "name": "청구역",
     "latitude": 37.560202988393804,
     "longitude": 127.013921207826,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "537"
   },
   {
     "name": "개롱역",
     "latitude": 37.4979574766853,
     "longitude": 127.13507053200999,
-    "lineNumber": "05호선",
+    "lineNumber": "5호선",
     "frCode": "P553"
   },
   {
     "name": "화랑대역",
     "latitude": 37.6198379616943,
     "longitude": 127.083525948283,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "646"
   },
   {
     "name": "연신내역",
     "latitude": 37.6191924317614,
     "longitude": 126.921096185129,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "614"
   },
   {
     "name": "구산역",
     "latitude": 37.6112430835611,
     "longitude": 126.917253818257,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "615"
   },
   {
     "name": "새절역",
     "latitude": 37.5908600347313,
     "longitude": 126.913562546888,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "616"
   },
   {
     "name": "증산역",
     "latitude": 37.5837391279813,
     "longitude": 126.909472356624,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "617"
   },
   {
     "name": "디지털미디어시티역",
     "latitude": 37.5760020219691,
     "longitude": 126.901263083061,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "618"
   },
   {
     "name": "월드컵경기장역",
     "latitude": 37.5696211494292,
     "longitude": 126.89909816750699,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "619"
   },
   {
     "name": "마포구청역",
     "latitude": 37.5634799638172,
     "longitude": 126.90340749844499,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "620"
   },
   {
     "name": "망원역",
     "latitude": 37.5560790523854,
     "longitude": 126.910094334311,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "621"
   },
   {
     "name": "합정역",
     "latitude": 37.549901442065,
     "longitude": 126.914447288631,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "622"
   },
   {
     "name": "상수역",
     "latitude": 37.5477625707505,
     "longitude": 126.92241631755199,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "623"
   },
   {
     "name": "광흥창역",
     "latitude": 37.547480166416804,
     "longitude": 126.932012687537,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "624"
   },
   {
     "name": "대흥역",
     "latitude": 37.547629883502104,
     "longitude": 126.942468676122,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "625"
   },
   {
     "name": "공덕역",
     "latitude": 37.5445344743163,
     "longitude": 126.95143307722999,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "626"
   },
   {
     "name": "효창공원앞역",
     "latitude": 37.5392943328525,
     "longitude": 126.96139358222399,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "627"
   },
   {
     "name": "삼각지역",
     "latitude": 37.534432134689,
     "longitude": 126.972913902586,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "628"
   },
   {
     "name": "녹사평역",
     "latitude": 37.5347047736434,
     "longitude": 126.986536101295,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "629"
   },
   {
     "name": "이태원역",
     "latitude": 37.534507184382,
     "longitude": 126.994320286276,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "630"
   },
   {
     "name": "버티고개역",
     "latitude": 37.5478239071303,
     "longitude": 127.00672181283,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "632"
   },
   {
     "name": "약수역",
     "latitude": 37.5544909839515,
     "longitude": 127.010887137982,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "633"
   },
   {
     "name": "신당역",
     "latitude": 37.5656622427144,
     "longitude": 127.019468475358,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "635"
   },
   {
     "name": "동묘앞역",
     "latitude": 37.573213058557904,
     "longitude": 127.016346114277,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "636"
   },
   {
     "name": "창신역",
     "latitude": 37.5794120427143,
     "longitude": 127.015283298946,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "637"
   },
   {
     "name": "보문역",
     "latitude": 37.5855380945306,
     "longitude": 127.019994457457,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "638"
   },
   {
     "name": "안암역",
     "latitude": 37.5862930020861,
     "longitude": 127.02923341460999,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "639"
   },
   {
     "name": "고려대역",
     "latitude": 37.5904356061366,
     "longitude": 127.036300356742,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "640"
   },
   {
     "name": "월곡역",
     "latitude": 37.6018044220648,
     "longitude": 127.041447136594,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "641"
   },
   {
     "name": "상월곡역",
     "latitude": 37.6065408142226,
     "longitude": 127.048811061085,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "642"
   },
   {
     "name": "돌곶이역",
     "latitude": 37.610537812749804,
     "longitude": 127.056424528377,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "643"
   },
   {
     "name": "석계역",
     "latitude": 37.6150019340823,
     "longitude": 127.065670206166,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "644"
   },
   {
     "name": "태릉입구역",
     "latitude": 37.6184559179347,
     "longitude": 127.075391704694,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "645"
   },
   {
     "name": "봉화산역",
     "latitude": 37.6173454295036,
     "longitude": 127.09136124169899,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "647"
   },
   {
     "name": "신내역",
     "latitude": 37.612487415788,
     "longitude": 127.104266904089,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "648"
   },
   {
     "name": "한강진역",
     "latitude": 37.5397871707134,
     "longitude": 127.001742505154,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "631"
   },
   {
     "name": "응암역",
     "latitude": 37.598483842041,
     "longitude": 126.915524077713,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "610"
   },
   {
     "name": "역촌역",
     "latitude": 37.6062193423086,
     "longitude": 126.922831293899,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "611"
   },
   {
     "name": "불광역",
     "latitude": 37.6100441859992,
     "longitude": 126.930302239049,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "612"
   },
   {
     "name": "독바위역",
     "latitude": 37.618406941812204,
     "longitude": 126.93303553594,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "613"
   },
   {
     "name": "청구역",
     "latitude": 37.560202988393804,
     "longitude": 127.013921207826,
-    "lineNumber": "06호선",
+    "lineNumber": "6호선",
     "frCode": "634"
   },
   {
     "name": "상동역",
     "latitude": 37.5057777528781,
     "longitude": 126.753174390302,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "756"
   },
   {
     "name": "부천시청역",
     "latitude": 37.5046286887108,
     "longitude": 126.764058041258,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "755"
   },
   {
     "name": "삼산체육관역",
     "latitude": 37.506491406879704,
     "longitude": 126.741409731627,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "757"
   },
   {
     "name": "신중동역",
     "latitude": 37.5029417111885,
     "longitude": 126.776888189294,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "754"
   },
   {
     "name": "춘의역",
     "latitude": 37.5036811739172,
     "longitude": 126.786996678208,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "753"
   },
   {
     "name": "굴포천역",
     "latitude": 37.5070275598449,
     "longitude": 126.731341990324,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "758"
   },
   {
     "name": "부평구청역",
     "latitude": 37.507419068537004,
     "longitude": 126.721432985599,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "759"
   },
   {
     "name": "부천종합운동장역",
     "latitude": 37.505411066025104,
     "longitude": 126.797215785441,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "752"
   },
   {
     "name": "까치울역",
     "latitude": 37.5062093130608,
     "longitude": 126.811328358368,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "751"
   },
   {
     "name": "온수역",
     "latitude": 37.4919566907461,
     "longitude": 126.823825338009,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "750"
   },
   {
     "name": "천왕역",
     "latitude": 37.4868420352704,
     "longitude": 126.838581632594,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "749"
   },
   {
     "name": "광명사거리역",
     "latitude": 37.4792946820271,
     "longitude": 126.85485565284,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "748"
   },
   {
     "name": "가산디지털단지역",
     "latitude": 37.480388740074304,
     "longitude": 126.882643680055,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "746"
   },
   {
     "name": "남구로역",
     "latitude": 37.4869892904115,
     "longitude": 126.887970257024,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "745"
   },
   {
     "name": "하계역",
     "latitude": 37.6364621312659,
     "longitude": 127.067977670097,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "715"
   },
   {
     "name": "공릉역",
     "latitude": 37.6255391693239,
     "longitude": 127.07301998826699,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "716"
   },
   {
     "name": "신풍역",
     "latitude": 37.5001085601918,
     "longitude": 126.909731743281,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "743"
   },
   {
     "name": "보라매역",
     "latitude": 37.4999181359871,
     "longitude": 126.920588561199,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "742"
   },
   {
     "name": "신대방삼거리역",
     "latitude": 37.499742812821204,
     "longitude": 126.928210959471,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "741"
   },
   {
     "name": "장승배기역",
     "latitude": 37.504884641436504,
     "longitude": 126.939063345317,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "740"
   },
   {
     "name": "상도역",
     "latitude": 37.5028526010093,
     "longitude": 126.94790894056,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "739"
   },
   {
     "name": "숭실대입구역",
     "latitude": 37.4963136741799,
     "longitude": 126.953612918928,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "738"
   },
   {
     "name": "남성역",
     "latitude": 37.4847862998916,
     "longitude": 126.97089663544699,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "737"
   },
   {
     "name": "이수역",
     "latitude": 37.4867887823399,
     "longitude": 126.98220282873899,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "736"
   },
   {
     "name": "내방역",
     "latitude": 37.4876549159776,
     "longitude": 126.993577566695,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "735"
   },
   {
     "name": "고속터미널역",
     "latitude": 37.5045398449292,
     "longitude": 127.005134579686,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "734"
   },
   {
     "name": "논현역",
     "latitude": 37.5111873890283,
     "longitude": 127.02164858363,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "732"
   },
   {
     "name": "강남구청역",
     "latitude": 37.5172008632289,
     "longitude": 127.041287183507,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "730"
   },
   {
     "name": "청담역",
     "latitude": 37.5194483760543,
     "longitude": 127.053708883222,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "729"
   },
   {
     "name": "어린이대공원역",
     "latitude": 37.547944666845304,
     "longitude": 127.074641659468,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "726"
   },
   {
     "name": "군자역",
     "latitude": 37.5571496975138,
     "longitude": 127.079494769075,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "725"
   },
   {
     "name": "철산역",
     "latitude": 37.476192832365705,
     "longitude": 126.868201982739,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "747"
   },
   {
     "name": "학동역",
     "latitude": 37.5143566006166,
     "longitude": 127.031897380783,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "731"
   },
   {
     "name": "반포역",
     "latitude": 37.5081434093748,
     "longitude": 127.011581635081,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "733"
   },
   {
     "name": "사가정역",
     "latitude": 37.5809295768134,
     "longitude": 127.088486427527,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "722"
   },
   {
     "name": "대림역",
     "latitude": 37.4933027323738,
     "longitude": 126.894926522974,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "744"
   },
   {
     "name": "용마산역",
     "latitude": 37.573704888224,
     "longitude": 127.086757224194,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "723"
   },
   {
     "name": "중곡역",
     "latitude": 37.5658680402426,
     "longitude": 127.084257974673,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "724"
   },
   {
     "name": "면목역",
     "latitude": 37.5886968712998,
     "longitude": 127.08749925382,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "721"
   },
   {
     "name": "상봉역",
     "latitude": 37.596698966908804,
     "longitude": 127.08574214510699,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "720"
   },
   {
     "name": "중화역",
     "latitude": 37.6025418946255,
     "longitude": 127.07929390651499,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "719"
   },
   {
     "name": "먹골역",
     "latitude": 37.6106157806661,
     "longitude": 127.077762184215,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "718"
   },
   {
     "name": "태릉입구역",
     "latitude": 37.6184559179347,
     "longitude": 127.075391704694,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "717"
   },
   {
     "name": "건대입구역",
     "latitude": 37.5403976062717,
     "longitude": 127.069202907348,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "727"
   },
   {
     "name": "중계역",
     "latitude": 37.645077707323104,
     "longitude": 127.064110346569,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "714"
   },
   {
     "name": "노원역",
     "latitude": 37.6563403562037,
     "longitude": 127.063440071354,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "713"
   },
   {
     "name": "마들역",
     "latitude": 37.665190945856104,
     "longitude": 127.057689943554,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "712"
   },
   {
     "name": "수락산역",
     "latitude": 37.6778778660233,
     "longitude": 127.055341897382,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "711"
   },
   {
     "name": "도봉산역",
     "latitude": 37.6895585326698,
     "longitude": 127.046053675471,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "710"
   },
   {
     "name": "장암역",
     "latitude": 37.6999529625254,
     "longitude": 127.052818308021,
-    "lineNumber": "07호선",
+    "lineNumber": "7호선",
     "frCode": "709"
   },
   {
     "name": "암사역",
     "latitude": 37.550133857734004,
     "longitude": 127.127537293281,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "810"
   },
   {
     "name": "모란역",
     "latitude": 37.434027487399604,
     "longitude": 127.12996139990399,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "827"
   },
   {
     "name": "수진역",
     "latitude": 37.4373671826853,
     "longitude": 127.140520928805,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "826"
   },
   {
     "name": "신흥역",
     "latitude": 37.4409086355148,
     "longitude": 127.14753358434099,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "825"
   },
   {
     "name": "단대오거리역",
     "latitude": 37.4450233989513,
     "longitude": 127.156763011663,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "824"
   },
   {
     "name": "가락시장역",
     "latitude": 37.493092048704,
     "longitude": 127.118258210622,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "817"
   },
   {
     "name": "남한산성입구역",
     "latitude": 37.451668709100105,
     "longitude": 127.159873536458,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "823"
   },
   {
     "name": "산성역",
     "latitude": 37.4567993089902,
     "longitude": 127.150073936897,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "822"
   },
   {
     "name": "복정역",
     "latitude": 37.4707382891863,
     "longitude": 127.126701394602,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "820"
   },
   {
     "name": "장지역",
     "latitude": 37.478631698139004,
     "longitude": 127.126172045084,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "819"
   },
   {
     "name": "문정역",
     "latitude": 37.4860238552656,
     "longitude": 127.122475829669,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "818"
   },
   {
     "name": "송파역",
     "latitude": 37.4997113580808,
     "longitude": 127.112184453853,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "816"
   },
   {
     "name": "석촌역",
     "latitude": 37.505410529970604,
     "longitude": 127.106990485844,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "815"
   },
   {
     "name": "잠실역",
     "latitude": 37.5133092702048,
     "longitude": 127.100215181119,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "814"
   },
   {
     "name": "몽촌토성역",
     "latitude": 37.5178028959182,
     "longitude": 127.112844983956,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "813"
   },
   {
     "name": "강동구청역",
     "latitude": 37.530193178362,
     "longitude": 127.120443701344,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "812"
   },
   {
     "name": "천호역",
     "latitude": 37.5384968055586,
     "longitude": 127.123919374783,
-    "lineNumber": "08호선",
+    "lineNumber": "8호선",
     "frCode": "811"
   },
   {
     "name": "동작역",
     "latitude": 37.5029705640491,
     "longitude": 126.980299007575,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "920"
   },
   {
     "name": "한성백제역",
     "latitude": 37.5165199821667,
     "longitude": 127.11644009282399,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "935"
   },
   {
     "name": "노량진역",
     "latitude": 37.5135712531779,
     "longitude": 126.940888666744,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "917"
   },
   {
     "name": "신목동역",
     "latitude": 37.5442703452459,
     "longitude": 126.883086765892,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "911"
   },
   {
     "name": "선유도역",
     "latitude": 37.5381532418967,
     "longitude": 126.89332482044,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "912"
   },
   {
     "name": "당산역",
     "latitude": 37.5347735014069,
     "longitude": 126.902607283905,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "913"
   },
   {
     "name": "노들역",
     "latitude": 37.512657701967804,
     "longitude": 126.953082505556,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "918"
   },
   {
     "name": "흑석역",
     "latitude": 37.5091654663414,
     "longitude": 126.96344496646,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "919"
   },
   {
     "name": "신반포역",
     "latitude": 37.5034947245635,
     "longitude": 126.996064297745,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "922"
   },
   {
     "name": "석촌고분역",
     "latitude": 37.502464275810404,
     "longitude": 127.096491224145,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "932"
   },
   {
     "name": "고속터미널역",
     "latitude": 37.5045398449292,
     "longitude": 127.005134579686,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "923"
   },
   {
     "name": "신방화역",
     "latitude": 37.567486525915,
     "longitude": 126.817218331242,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "904"
   },
   {
     "name": "국회의사당역",
     "latitude": 37.5281356801658,
     "longitude": 126.917820861804,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "914"
   },
   {
     "name": "사평역",
     "latitude": 37.50423262798,
     "longitude": 127.01526796069099,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "924"
   },
   {
     "name": "개화역",
     "latitude": 37.578337291389104,
     "longitude": 126.79688232559799,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "901"
   },
   {
     "name": "마곡나루역",
     "latitude": 37.566708985674104,
     "longitude": 126.82740735395299,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "905"
   },
   {
     "name": "구반포역",
     "latitude": 37.5014218099211,
     "longitude": 126.987446814026,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "921"
   },
   {
     "name": "삼전역",
     "latitude": 37.5045436968849,
     "longitude": 127.08735570822,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "931"
   },
   {
     "name": "양천향교역",
     "latitude": 37.5680628368766,
     "longitude": 126.84196076267399,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "906"
   },
   {
     "name": "신논현역",
     "latitude": 37.5048075124198,
     "longitude": 127.025469415506,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "925"
   },
   {
     "name": "언주역",
     "latitude": 37.5073281931356,
     "longitude": 127.033952822224,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "926"
   },
   {
     "name": "선정릉역",
     "latitude": 37.5109290398758,
     "longitude": 127.043613714302,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "927"
   },
   {
     "name": "삼성중앙역",
     "latitude": 37.512961459257504,
     "longitude": 127.053025579452,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "928"
   },
   {
     "name": "봉은사역",
     "latitude": 37.5142374358367,
     "longitude": 127.060220347306,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "929"
   },
   {
     "name": "중앙보훈병원역",
     "latitude": 37.528395387666905,
     "longitude": 127.148407138571,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "938"
   },
   {
     "name": "둔촌오륜역",
     "latitude": 37.5193972411893,
     "longitude": 127.138638475396,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "937"
   },
   {
     "name": "종합운동장역",
     "latitude": 37.5111302556967,
     "longitude": 127.07383586044,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "930"
   },
   {
     "name": "올림픽공원역",
     "latitude": 37.5163245709914,
     "longitude": 127.130963650207,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "936"
   },
   {
     "name": "가양역",
     "latitude": 37.5614294894973,
     "longitude": 126.854402192224,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "907"
   },
   {
     "name": "석촌역",
     "latitude": 37.505410529970604,
     "longitude": 127.106990485844,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "933"
   },
   {
     "name": "여의도역",
     "latitude": 37.5211664706025,
     "longitude": 126.924638422261,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "915"
   },
   {
     "name": "증미역",
     "latitude": 37.5581213429662,
     "longitude": 126.860633381512,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "908"
   },
   {
     "name": "등촌역",
     "latitude": 37.5507208571932,
     "longitude": 126.865558572269,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "909"
   },
   {
     "name": "샛강역",
     "latitude": 37.517366563071,
     "longitude": 126.92837506516,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "916"
   },
   {
     "name": "염창역",
     "latitude": 37.5469649168106,
     "longitude": 126.874867107681,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "910"
   },
   {
     "name": "송파나루역",
     "latitude": 37.5110095122823,
     "longitude": 127.112653785965,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "934"
   },
   {
     "name": "김포공항역",
     "latitude": 37.5619477391215,
     "longitude": 126.801906881417,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "902"
   },
   {
     "name": "공항시장역",
     "latitude": 37.5636738875486,
     "longitude": 126.810594967667,
-    "lineNumber": "09호선",
+    "lineNumber": "9호선",
     "frCode": "903"
   },
   {
