@@ -54,6 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   bool _loading = false;
   Map<String, StationDistance>? _nearestStationsByLine;
+  final Set<String> _enabledNotificationStations = {};
 
   @override
   Widget build(BuildContext context) {
@@ -89,6 +90,9 @@ class _MyHomePageState extends State<MyHomePage> {
                         final station = entry.value.station;
                         final dist = entry.value.distance;
 
+                        final id = station.frCode;
+                        final bool isEnabledNotification = _enabledNotificationStations.contains(id);
+
                         return ListTile(
                           contentPadding: const EdgeInsets.symmetric(
                               horizontal: 16),
@@ -96,21 +100,39 @@ class _MyHomePageState extends State<MyHomePage> {
                           subtitle: Text('$line • ${_formatDistance(dist)}'),
                           leading: const Icon(Icons.train),
                           trailing: IconButton(
-                            icon: const Icon(Icons.notifications_none),
-                            color: AppColors.green,
-                            tooltip: '알림 설정',
+                            icon: Icon(
+                              isEnabledNotification
+                              ? Icons.notifications_active
+                              : Icons.notifications_none
+                            ),
+                            color: isEnabledNotification
+                            ? AppColors.green
+                            : Colors.grey,
+                            tooltip: isEnabledNotification
+                            ? '알림 중지'
+                            : '알림 설정',
                             onPressed: () async {
-                              try {
-                                await _enableSubwayStationNotification(station);
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(content: Text(
-                                      '${station.name} 알림이 설정되었습니다')),
-                                );
-                              } catch (e) {
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(content: Text(e.toString())),
-                                );
-                              }
+                                if (isEnabledNotification) {
+                                  setState(() {
+                                    _enabledNotificationStations.remove(id);
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                          content: Text('${station.lineNumber} 알림이 해제되었습니다')
+                                      ),
+                                    );
+                                  });
+                                  // todo _stopTrackingFor(id);     // ← 타이머 취소 함수(직접 구현)
+                                } else {
+                                  setState(() {
+                                    _enabledNotificationStations.add(id);
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                          content: Text('${station.lineNumber} 알림이 설정되었습니다')
+                                      ),
+                                    );
+                                  });
+                                  await _enableSubwayStationNotification(station);
+                                }
                             },
                           ),
                         );
