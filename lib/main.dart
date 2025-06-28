@@ -1,4 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:geolocator/geolocator.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart' show rootBundle;
+
+import 'SubwayStation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -46,9 +51,9 @@ class _MyHomePageState extends State<MyHomePage> {
             child: SizedBox(
               height: 60,
               child: ElevatedButton(
-                onPressed: () {
-                  // 여기에 버튼 클릭 시 동작할 코드를 작성
-                  print('가까운 지하철역 찾기 버튼 클릭됨!');
+                onPressed: () async {
+                  final stations = await loadStations();
+                  print(stations);
                 },
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
@@ -86,5 +91,11 @@ class _MyHomePageState extends State<MyHomePage> {
 
     return await Geolocator.getCurrentPosition(
         desiredAccuracy: LocationAccuracy.high);
+  }
+
+  Future<List<SubwayStation>> loadStations() async {
+    final jsonString = await rootBundle.loadString('assets/stations.json');
+    final List<dynamic> jsonList = json.decode(jsonString);
+    return jsonList.map((e) => SubwayStation.fromJson(e)).toList();
   }
 }
