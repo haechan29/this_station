@@ -55,6 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _loading = false;
   Map<String, StationDistance>? _nearestStationsByLine;
   final Set<String> _enabledNotificationStations = {};
+  final Map<String, Timer> _timers = {};
 
   @override
   Widget build(BuildContext context) {
@@ -121,7 +122,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       ),
                                     );
                                   });
-                                  // todo _stopTrackingFor(id);     // ← 타이머 취소 함수(직접 구현)
+                                  _disableSubwayStationNotification(station);
                                 } else {
                                   setState(() {
                                     _enabledNotificationStations.add(id);
@@ -188,6 +189,15 @@ class _MyHomePageState extends State<MyHomePage> {
             ]
         )
     );
+  }
+
+  @override
+  void dispose() {
+    for (final timer in _timers.values) {
+      timer.cancel();
+    }
+    _timers.clear();
+    super.dispose();
   }
 
   Future<void> _initiateNearestStationsByLine() async {
@@ -294,12 +304,15 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _startSubwayStationNotification(SubwayStation selectedStation) async {
+    final id = selectedStation.frCode;
+    if (_timers.containsKey(id)) return;
+
     final stations = await _loadStations();
     final sameLineStations = stations
         .where((s) => s.lineNumber == selectedStation.lineNumber)
         .toList();
 
-    Timer.periodic(const Duration(seconds: 10), (timer) async {
+    final timer = Timer.periodic(const Duration(seconds: 10), (timer) async {
       try {
         final pos = await Geolocator.getCurrentPosition(
             desiredAccuracy: LocationAccuracy.high);
@@ -342,5 +355,13 @@ class _MyHomePageState extends State<MyHomePage> {
         // 오류 무시 또는 로깅
       }
     });
+
+    _timers[id] = timer;
+  }
+
+  void _disableSubwayStationNotification(SubwayStation subwayStation) {
+    final id = subwayStation.frCode;
+    _timers[id]?.cancel();
+    _timers.remove(id);
   }
 }
