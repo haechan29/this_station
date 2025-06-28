@@ -71,9 +71,21 @@ class _MyHomePageState extends State<MyHomePage> {
                         final dist = entry.value.distance;
 
                         return ListTile(
+                          contentPadding: const EdgeInsets.symmetric(horizontal: 16),
                           title: Text('${station.name}'),
                           subtitle: Text('$line • ${_formatDistance(dist)}'),
                           leading: const Icon(Icons.train),
+                          trailing: IconButton(
+                            icon: const Icon(Icons.notifications_none),
+                            color: AppColors.green,
+                            tooltip: '알림 설정',
+                            onPressed: () {
+                              // TODO: 위치 추적 & 알림 로직
+                              ScaffoldMessenger.of(context).showSnackBar(
+                                SnackBar(content: Text('${station.name} 알림이 설정되었습니다')),
+                              );
+                            },
+                          ),
                         );
                       },
                     ),
