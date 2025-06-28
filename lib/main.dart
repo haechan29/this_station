@@ -3,6 +3,7 @@ import 'package:geolocator/geolocator.dart';
 import 'dart:convert';
 import 'package:flutter/services.dart' show rootBundle;
 
+import 'StationDistance.dart';
 import 'SubwayStation.dart';
 
 void main() {
@@ -52,8 +53,8 @@ class _MyHomePageState extends State<MyHomePage> {
               height: 60,
               child: ElevatedButton(
                 onPressed: () async {
-                  final stations = await loadStations();
-                  print(stations);
+                  final map = await getNearestStationsByLine();
+                  print(map);
                 },
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
@@ -68,7 +69,32 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Future<Position> getPosition() async {
+  Future<Map<String, StationDistance>> getNearestStationsByLine() async {
+    final Position current = await _getPosition();
+    final List<SubwayStation> stations = await _loadStations();
+
+    final Map<String, StationDistance> result = {};
+    final Map<String, double> minDistances = {};
+
+    for (final s in stations) {
+      final dist = Geolocator.distanceBetween(
+        current.latitude,
+        current.longitude,
+        s.latitude,
+        s.longitude,
+      );
+
+      final line = s.lineNumber;
+
+      if (!result.containsKey(line) || dist < minDistances[line]!) {
+        result[line] = StationDistance(s, dist);
+        minDistances[line] = dist;
+      }
+    }
+    return result;
+  }
+
+  Future<Position> _getPosition() async {
     bool serviceEnabled;
     LocationPermission permission;
 
@@ -93,7 +119,7 @@ class _MyHomePageState extends State<MyHomePage> {
         desiredAccuracy: LocationAccuracy.high);
   }
 
-  Future<List<SubwayStation>> loadStations() async {
+  Future<List<SubwayStation>> _loadStations() async {
     final jsonString = await rootBundle.loadString('assets/stations.json');
     final List<dynamic> jsonList = json.decode(jsonString);
     return jsonList.map((e) => SubwayStation.fromJson(e)).toList();
