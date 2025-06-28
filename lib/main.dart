@@ -49,6 +49,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+
+  static const double _arrivalThresholdMeters = 20000000.0;
+
   bool _loading = false;
   Map<String, StationDistance>? _nearestStationsByLine;
 
@@ -98,7 +101,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             tooltip: '알림 설정',
                             onPressed: () async {
                               try {
-                                await _enableArrivalAlert(station);
+                                await _enableSubwayStationNotification(station);
                                 ScaffoldMessenger.of(context).showSnackBar(
                                   SnackBar(content: Text(
                                       '${station.name} 알림이 설정되었습니다')),
@@ -236,7 +239,7 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
-  Future<void> _enableArrivalAlert(SubwayStation station) async {
+  Future<void> _enableSubwayStationNotification(SubwayStation station) async {
     if (!await Geolocator.isLocationServiceEnabled()) {
       throw '위치 서비스가 꺼져 있습니다.';
     }
@@ -258,6 +261,57 @@ class _MyHomePageState extends State<MyHomePage> {
       }
     }
 
-    
+    _startSubwayStationNotification(station);
+  }
+
+  void _startSubwayStationNotification(SubwayStation selectedStation) async {
+    final stations = await _loadStations();
+    final sameLineStations = stations
+        .where((s) => s.lineNumber == selectedStation.lineNumber)
+        .toList();
+
+    Timer.periodic(const Duration(seconds: 10), (timer) async {
+      try {
+        final pos = await Geolocator.getCurrentPosition(
+            desiredAccuracy: LocationAccuracy.high);
+
+        SubwayStation? nearest;
+        double minDist = double.infinity;
+
+        for (final s in sameLineStations) {
+          final dist = Geolocator.distanceBetween(
+            pos.latitude,
+            pos.longitude,
+            s.latitude,
+            s.longitude,
+          );
+          if (dist < minDist) {
+            minDist = dist;
+            nearest = s;
+          }
+        }
+
+        if (nearest != null && minDist <= _arrivalThresholdMeters) {
+          await _fln.show(
+            0,
+            '가장 가까운 역 알림',
+            '현재 ${nearest.name}으로부터 ${_formatDistance(minDist)} 떨어져 있습니다',
+            const NotificationDetails(
+              android: AndroidNotificationDetails(
+                'arrival_channel',
+                '도착 알림',
+                importance: Importance.high,
+                priority: Priority.high,
+                icon: '@mipmap/ic_launcher',
+              ),
+              iOS: DarwinNotificationDetails(),
+            ),
+          );
+          timer.cancel(); // 1회 알림 후 중지 (필요에 따라 반복 가능)
+        }
+      } catch (_) {
+        // 오류 무시 또는 로깅
+      }
+    });
   }
 }
