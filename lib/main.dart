@@ -45,31 +45,59 @@ class _MyHomePageState extends State<MyHomePage> {
       body: Container(
         color: Colors.white,
         child: Center(
-            child: SizedBox(
-              height: 60,
-              child: ElevatedButton(
-                onPressed: () async {
-                  _loading ? null : _initiateNearestStationsByLine();
-                },
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: AppColors.lightGreen,
-                  foregroundColor: AppColors.green,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10),
-                  )
-                ),
-                child: _loading
-                    ? const SizedBox(
-                  width: 20,
-                  height: 20,
-                  child: CircularProgressIndicator(
-                    strokeWidth: 2,
-                    color: AppColors.green,
+          child: Column(
+            children: [
+              if (_nearestStationsByLine != null)
+                Expanded(
+                  child: ListView.builder(
+                    itemCount: _nearestStationsByLine!.length,
+                    itemBuilder: (context, index) {
+                      final entry = _nearestStationsByLine!.entries.elementAt(index);
+                      final line = entry.key;
+                      final station = entry.value.station;
+                      final dist = entry.value.distance;
+
+                      return ListTile(
+                        title: Text('${station.name}'),
+                        subtitle: Text('$line • ${_formatDistance(dist)}'),
+                        leading: const Icon(Icons.train),
+                      );
+                    },
                   ),
+                ),
+              const SizedBox(height: 20), // 버튼 위 마진
+              Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 20),
+                child: SizedBox(
+                  width: double.infinity,
+                  height: 60,
+                  child: ElevatedButton(
+                    onPressed: () async {
+                      _loading ? null : _initiateNearestStationsByLine();
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: AppColors.lightGreen,
+                      foregroundColor: AppColors.green,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      )
+                    ),
+                    child: _loading
+                        ? const SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(
+                              strokeWidth: 2,
+                              color: AppColors.green,
+                            ),
+                          )
+                        : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
+                  )
                 )
-                    : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
-              )
-            )
+              ),
+              const SizedBox(height: 20), // 버튼 아래 마진
+            ]
+          )
         ),
       )
     );
@@ -143,5 +171,13 @@ class _MyHomePageState extends State<MyHomePage> {
     final jsonString = await rootBundle.loadString('assets/stations.json');
     final List<dynamic> jsonList = json.decode(jsonString);
     return jsonList.map((e) => SubwayStation.fromJson(e)).toList();
+  }
+
+  String _formatDistance(double meters) {
+    if (meters >= 1000) {
+      return '${(meters / 1000).toStringAsFixed(2)} km';
+    } else {
+      return '${meters.toStringAsFixed(0)} m';
+    }
   }
 }
