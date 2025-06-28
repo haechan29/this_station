@@ -1,14 +1,27 @@
 import 'package:flutter/material.dart';
 import 'package:geolocator/geolocator.dart';
-import 'dart:convert';
+import 'package:flutter_local_notifications/flutter_local_notifications.dart';
+import 'package:permission_handler/permission_handler.dart';
 import 'package:flutter/services.dart' show rootBundle;
-
+import 'dart:convert';
+import 'dart:async';
 import 'StationDistance.dart';
 import 'SubwayStation.dart';
 import 'colors.dart';
 
-void main() {
+final _fln = FlutterLocalNotificationsPlugin();
+
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await _initLocalNotifications();
   runApp(const MyApp());
+}
+
+Future<void> _initLocalNotifications() async {
+  const android = AndroidInitializationSettings('@mipmap/ic_launcher');
+  const ios = DarwinInitializationSettings();
+  const initSettings = InitializationSettings(android: android, iOS: ios);
+  await _fln.initialize(initSettings);
 }
 
 class MyApp extends StatelessWidget {
@@ -42,36 +55,40 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
-        children: [
-          Container(color: Colors.white),
-          Positioned.fill(
-            child: Padding(
-              padding: const EdgeInsets.only(bottom: 100), // 버튼 영역 확보
-              child: AnimatedSwitcher(
-                duration: const Duration(milliseconds: 500),
-                transitionBuilder: (child, anim) => FadeTransition(
-                  opacity: anim,
-                  child: SlideTransition(
-                    position:
-                    Tween(begin: const Offset(0, -.05), end: Offset.zero)
-                        .animate(anim),
-                    child: child,
-                  ),
-                ),
-                child: _nearestStationsByLine == null
-                  ? const SizedBox(key: ValueKey('empty'))
-                  : ListView.builder(
+        body: Stack(
+            children: [
+              Container(color: Colors.white),
+              Positioned.fill(
+                child: Padding(
+                  padding: const EdgeInsets.only(bottom: 100), // 버튼 영역 확보
+                  child: AnimatedSwitcher(
+                    duration: const Duration(milliseconds: 500),
+                    transitionBuilder: (child, anim) =>
+                        FadeTransition(
+                          opacity: anim,
+                          child: SlideTransition(
+                            position:
+                            Tween(
+                                begin: const Offset(0, -.05), end: Offset.zero)
+                                .animate(anim),
+                            child: child,
+                          ),
+                        ),
+                    child: _nearestStationsByLine == null
+                        ? const SizedBox(key: ValueKey('empty'))
+                        : ListView.builder(
                       key: const ValueKey('listView'),
                       itemCount: _nearestStationsByLine!.length,
                       itemBuilder: (context, index) {
-                        final entry = _nearestStationsByLine!.entries.elementAt(index);
+                        final entry = _nearestStationsByLine!.entries.elementAt(
+                            index);
                         final line = entry.key;
                         final station = entry.value.station;
                         final dist = entry.value.distance;
 
                         return ListTile(
-                          contentPadding: const EdgeInsets.symmetric(horizontal: 16),
+                          contentPadding: const EdgeInsets.symmetric(
+                              horizontal: 16),
                           title: Text('${station.name}'),
                           subtitle: Text('$line • ${_formatDistance(dist)}'),
                           leading: const Icon(Icons.train),
@@ -79,57 +96,65 @@ class _MyHomePageState extends State<MyHomePage> {
                             icon: const Icon(Icons.notifications_none),
                             color: AppColors.green,
                             tooltip: '알림 설정',
-                            onPressed: () {
-                              // TODO: 위치 추적 & 알림 로직
-                              ScaffoldMessenger.of(context).showSnackBar(
-                                SnackBar(content: Text('${station.name} 알림이 설정되었습니다')),
-                              );
+                            onPressed: () async {
+                              try {
+                                await _enableArrivalAlert(station);
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(content: Text(
+                                      '${station.name} 알림이 설정되었습니다')),
+                                );
+                              } catch (e) {
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(content: Text(e.toString())),
+                                );
+                              }
                             },
                           ),
                         );
                       },
                     ),
-              ),
-            ),
-          ),
-          AnimatedAlign(
-            duration: const Duration(milliseconds: 500),
-            curve: Curves.easeInOut,
-            alignment: _nearestStationsByLine == null
-              ? Alignment.center
-              : Alignment.bottomCenter,
-            child: Padding(
-              padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
-              child: SizedBox(
-                width: double.infinity,
-                height: 60,
-                child: ElevatedButton(
-                  onPressed: () async {
-                    _loading ? null : _initiateNearestStationsByLine();
-                  },
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: AppColors.lightGreen,
-                      foregroundColor: AppColors.green,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      )
                   ),
-                  child: _loading
-                      ? const SizedBox(
-                    width: 20,
-                    height: 20,
-                    child: CircularProgressIndicator(
-                      strokeWidth: 2,
-                      color: AppColors.green,
-                    ),
-                  )
-                      : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
-                )
-              )
-            ),
-         ),
-        ]
-      )
+                ),
+              ),
+              AnimatedAlign(
+                duration: const Duration(milliseconds: 500),
+                curve: Curves.easeInOut,
+                alignment: _nearestStationsByLine == null
+                    ? Alignment.center
+                    : Alignment.bottomCenter,
+                child: Padding(
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 20, vertical: 30),
+                    child: SizedBox(
+                        width: double.infinity,
+                        height: 60,
+                        child: ElevatedButton(
+                          onPressed: () async {
+                            _loading ? null : _initiateNearestStationsByLine();
+                          },
+                          style: ElevatedButton.styleFrom(
+                              backgroundColor: AppColors.lightGreen,
+                              foregroundColor: AppColors.green,
+                              shape: RoundedRectangleBorder(
+                                borderRadius: BorderRadius.circular(10),
+                              )
+                          ),
+                          child: _loading
+                              ? const SizedBox(
+                            width: 20,
+                            height: 20,
+                            child: CircularProgressIndicator(
+                              strokeWidth: 2,
+                              color: AppColors.green,
+                            ),
+                          )
+                              : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
+                        )
+                    )
+                ),
+              ),
+            ]
+        )
     );
   }
 
@@ -209,5 +234,30 @@ class _MyHomePageState extends State<MyHomePage> {
     } else {
       return '${meters.toStringAsFixed(0)} m';
     }
+  }
+
+  Future<void> _enableArrivalAlert(SubwayStation station) async {
+    if (!await Geolocator.isLocationServiceEnabled()) {
+      throw '위치 서비스가 꺼져 있습니다.';
+    }
+    LocationPermission locPerm = await Geolocator.checkPermission();
+    if (locPerm == LocationPermission.denied ||
+        locPerm == LocationPermission.deniedForever) {
+      locPerm = await Geolocator.requestPermission();
+      if (locPerm == LocationPermission.denied ||
+          locPerm == LocationPermission.deniedForever) {
+        throw '위치 권한을 허용해야 알림을 받을 수 있습니다.';
+      }
+    }
+
+    PermissionStatus ntfStatus = await Permission.notification.status;
+    if (!ntfStatus.isGranted) {
+      ntfStatus = await Permission.notification.request();
+      if (!ntfStatus.isGranted) {
+        throw '알림 권한이 거부되었습니다.';
+      }
+    }
+
+    
   }
 }
