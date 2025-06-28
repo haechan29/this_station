@@ -142,16 +142,23 @@ class _MyHomePageState extends State<MyHomePage> {
                                 borderRadius: BorderRadius.circular(10),
                               )
                           ),
-                          child: _loading
-                              ? const SizedBox(
-                            width: 20,
-                            height: 20,
-                            child: CircularProgressIndicator(
-                              strokeWidth: 2,
-                              color: AppColors.green,
-                            ),
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            mainAxisAlignment: MainAxisAlignment.center,
+                            children: [
+                              const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
+                              const SizedBox(width: 8),
+                              if (_loading)
+                                const SizedBox(
+                                  width: 20,
+                                  height: 20,
+                                  child: CircularProgressIndicator(
+                                    strokeWidth: 2,
+                                    color: AppColors.green,
+                                  ),
+                                )
+                            ],
                           )
-                              : const Text('현재 위치를 이용해 가까운 지하철역 찾기'),
                         )
                     )
                 ),
@@ -294,7 +301,7 @@ class _MyHomePageState extends State<MyHomePage> {
         if (nearest != null && minDist <= _arrivalThresholdMeters) {
           await _fln.show(
             0,
-            '가장 가까운 역 알림',
+            '가장 가까운 지하철역 알림',
             '현재 ${nearest.name}으로부터 ${_formatDistance(minDist)} 떨어져 있습니다',
             const NotificationDetails(
               android: AndroidNotificationDetails(
