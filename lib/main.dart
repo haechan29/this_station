@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:foreground_service_plugin/foreground_service_plugin.dart';
 import 'package:geolocator/geolocator.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:permission_handler/permission_handler.dart';
@@ -51,7 +54,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
 
-  static const double _arrivalThresholdMeters = 20000000.0;
+  static const double _arrivalThresholdMeters = 5000.0;
 
   bool _loading = false;
   Map<String, StationDistance>? _nearestStationsByLine;
@@ -321,52 +324,41 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _startSubwayStationNotification(SubwayStation selectedStation) async {
+
     final id = selectedStation.frCode;
     if (_timers.containsKey(id)) return;
 
-    final stations = await _loadStations();
-    final sameLineStations = stations
-        .where((s) => s.lineNumber == selectedStation.lineNumber)
-        .toList();
-
     final timer = Timer.periodic(const Duration(seconds: 10), (timer) async {
       try {
-        final pos = await Geolocator.getCurrentPosition(
-            desiredAccuracy: LocationAccuracy.high);
+        final result = await _findNearestStation(selectedStation);
+        if (result == null) return;
 
-        SubwayStation? nearest;
-        double minDist = double.infinity;
+        final nearest = result.station;
+        final minDist = result.distance;
 
-        for (final s in sameLineStations) {
-          final dist = Geolocator.distanceBetween(
-            pos.latitude,
-            pos.longitude,
-            s.latitude,
-            s.longitude,
-          );
-          if (dist < minDist) {
-            minDist = dist;
-            nearest = s;
-          }
-        }
-
-        if (nearest != null && minDist <= _arrivalThresholdMeters) {
-          await _fln.show(
-            0,
-            '가장 가까운 지하철역 알림',
-            '현재 ${nearest.name}으로부터 ${_formatDistance(minDist)} 떨어져 있습니다',
-            const NotificationDetails(
-              android: AndroidNotificationDetails(
-                'arrival_channel',
-                '도착 알림',
-                importance: Importance.high,
-                priority: Priority.high,
-                icon: '@mipmap/ic_launcher',
+        if (minDist <= _arrivalThresholdMeters) {
+          if (Platform.isAndroid) {
+            await ForegroundServicePlugin.startService(
+              nearest.name,
+              _formatDistance(minDist),
+            );
+          } else {
+            await _fln.show(
+              0,
+              '가장 가까운 지하철역 알림',
+              '현재 ${nearest.name}으로부터 ${_formatDistance(minDist)} 떨어져 있습니다',
+              const NotificationDetails(
+                android: AndroidNotificationDetails(
+                  'arrival_channel',
+                  '도착 알림',
+                  importance: Importance.high,
+                  priority: Priority.high,
+                  icon: '@mipmap/ic_launcher',
+                ),
+                iOS: DarwinNotificationDetails(),
               ),
-              iOS: DarwinNotificationDetails(),
-            ),
-          );
-          timer.cancel(); // 1회 알림 후 중지 (필요에 따라 반복 가능)
+            );
+          }
         }
       } catch (_) {
         // 오류 무시 또는 로깅
@@ -380,5 +372,39 @@ class _MyHomePageState extends State<MyHomePage> {
     final id = subwayStation.frCode;
     _timers[id]?.cancel();
     _timers.remove(id);
+  }
+
+  Future<({SubwayStation station, double distance})?> _findNearestStation(SubwayStation selectedStation) async {
+    try {
+      SubwayStation? nearest;
+      double minDist = double.infinity;
+
+      final pos = await Geolocator.getCurrentPosition(
+        desiredAccuracy: LocationAccuracy.high,
+      );
+
+      final stations = await _loadStations();
+      final sameLineStations = stations
+          .where((s) => s.lineNumber == selectedStation.lineNumber)
+          .toList();
+
+      for (final s in sameLineStations) {
+        final dist = Geolocator.distanceBetween(
+          pos.latitude,
+          pos.longitude,
+          s.latitude,
+          s.longitude,
+        );
+        if (dist < minDist) {
+          minDist = dist;
+          nearest = s;
+        }
+      }
+
+      if (nearest == null) return null;
+      return (station: nearest, distance: minDist);
+    } catch (_) {
+      return null;
+    }
   }
 }
