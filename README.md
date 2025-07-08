@@ -11,6 +11,52 @@
 - **지하철 탑승 중에 현재 지하철 역 위치를 파악하기 어려운 경우**가 있음
 - 핸드폰 알림을 통해 현재 위치를 알려줌으로써 쉽게 위치 파악
 
+### 안드로이드 플러그인 적용
+- `ForegroundService`를 통해 가까운 지하철역 알림
+- <img src="https://github.com/user-attachments/assets/fab708d5-6aab-4e1b-ba83-2b7925808e7b"  width="250" height="500"/>
+
+<details>
+  <summary>코드 확인하기</summary>
+
+[앱에서 플러그인을 호출하는 코드]
+```dart
+  // main.dart
+  ForegroundServicePlugin.startService(
+    nearest.name,
+    _formatDistance(minDist),
+  )
+```
+
+[플러그인 코드]
+```dart
+  // foreground_service_plugin.dart
+  static Future<void> startService(String stationName, String distance) async {
+    await _channel.invokeMethod('startService', {
+      'stationName': stationName,
+      'distance': distance,
+    });
+  }
+
+ // ForegroundServicePlugin.kt
+  override fun onMethodCall(call: MethodCall, result: Result) {
+    when (call.method) {
+      "startService" -> {
+        val stationName = call.argument<String>("stationName") ?: ""
+        val distance    = call.argument<String>("distance")    ?: ""
+
+        val intent = Intent(context, MyForegroundService::class.java).apply {
+          putExtra("stationName", stationName)
+          putExtra("distance", distance)
+        }
+
+        ContextCompat.startForegroundService(context, intent)
+        result.success("started")
+      }
+    }
+  }
+```
+</details>
+
 ### 애니메이션 적용
 - `AnimatedSwitcher`을 통해 지하철역 리스트 Fade In 애니메이션
 - `AnimatedAlign`을 통해 지하철역 찾기 버튼 아래로 자연스럽게 이동
