@@ -144,6 +144,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  foreground_service_plugin:
+    dependency: "direct main"
+    description:
+      path: "../../foreground_service_plugin"
+      relative: true
+    source: path
+    version: "0.0.1"
   geolocator:
     dependency: "direct main"
     description:
